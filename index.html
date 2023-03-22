@@ -9,19 +9,51 @@
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/mediaquery.css">
 
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     <title>Início | Gustavo Pilar</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        
+        <h1>Portifólio</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Currículo</a></li>
+                <li><a href="#">Certificados</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </menu>
     </header>
     <main>
         <section>
-            <img src="img/eu2.png" alt="">
+            <!-- <img src="img/eu2.png" alt=""> -->
         </section>
     </main>
     <footer>
 
     </footer>
+
+    <script>
+
+            function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+                function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+    </script>
 </body>
 </html>
