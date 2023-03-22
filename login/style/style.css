@@ -14,6 +14,7 @@
 }
 
 body {
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../img/Fuji\ [1920\ x\ 1080].jpeg);
     background-size: cover;
