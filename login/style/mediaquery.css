@@ -10,26 +10,32 @@ Telas grandes = acima de 1200px
 */
 
 @media screen and (max-width: 992px) {
+
     body {
         background: url(../img/fundo.jpeg) no-repeat center;
         background-size: cover;
     }
+
     #birds {
         width: 200px;
-        animation: birds-flying 10s infinite linear;
     }
 
     div {
-        width: 450px;
+        width: 350px;
     }
 
     div p.links {
-        width: 45%;
+        width: 50%;
+        font-size: .9em;
+    }
+
+    div a:nth-child(2) {
+        margin-left: 10px;
     }
 
     @keyframes birds-flying {
         0% {
-            right: -200px;
+            right: 0;
         }
         100% {
             right: 100%;
