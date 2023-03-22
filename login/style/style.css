@@ -31,7 +31,7 @@ main {
 
 #birds {
     position: absolute;
-    width: 700px;
+    width: 500px;
     animation: birds-flying 5s infinite linear;
 }
 
@@ -104,7 +104,7 @@ div a:nth-child(2) {
 
 @keyframes birds-flying {
     0% {
-        right: -700px;
+        right: -500px;
     }
     100% {
         right: 100%;
