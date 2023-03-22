@@ -14,4 +14,21 @@ Telas grandes = acima de 1200px
         background: url(../img/fundo.jpeg) no-repeat center;
         background-size: cover;
     }
+    #birds {
+        width: 200px;
+        animation: birds-flying 10s infinite linear;
+    }
+
+    div {
+        width: 450px;
+    }
+
+    @keyframes birds-flying {
+        0% {
+            right: -200px;
+        }
+        100% {
+            right: 100%;
+        }
+    }
 }
