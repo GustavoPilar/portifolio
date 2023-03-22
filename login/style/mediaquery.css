@@ -23,6 +23,10 @@ Telas grandes = acima de 1200px
         width: 450px;
     }
 
+    div p.links {
+        width: 45%;
+    }
+
     @keyframes birds-flying {
         0% {
             right: -200px;
