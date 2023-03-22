@@ -45,6 +45,7 @@ div {
     position: relative;
     border-radius: 40px 10px;
     border: 5px solid var(--cor5);
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.623);
 }
 
 h1 {

@@ -22,11 +22,36 @@ Telas grandes = acima de 1200px
 
     div {
         width: 350px;
+        background-color: rgba(255, 255, 255, 0.326);
+        border: 5px solid #36A6D4;
+        box-shadow: 2px 2px 15px black;
+    }
+
+    h1 {
+       color: #2F84EB;
+       text-shadow: 1px 1px black;
+    }
+
+    form input[type='submit'] {
+        background-color: #36A6D4;
+    }
+
+    form input[type='submit']:hover {
+        background-color: #2d8db2;
     }
 
     div p.links {
         width: 50%;
         font-size: .9em;
+    }
+
+    div p.links a {
+        color: #2F84EB;
+        text-decoration: none;
+    }
+
+    div p.links a:hover {
+        color: #2a73cb;
     }
 
     div a:nth-child(2) {
