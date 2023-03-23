@@ -18,6 +18,7 @@ header {
     background: url(../img/Fundo.png) no-repeat center;
     background-size: cover;
     overflow: hidden;
+    text-align: center;
 }
 
 header h1 {
@@ -28,10 +29,22 @@ header ul {
     position: absolute;
     left: 0;
     top: 0;
-    margin-left: 10px;
+    text-align: center;
 }
 
 header ul li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 25px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    font-size: 1.1em;
 }
