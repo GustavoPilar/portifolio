@@ -19,7 +19,7 @@ header {
 }
 
 header div {
-    background: url(../img/Eu.jpg) no-repeat center bottom;
+    background: url(../img/Eu.jpg) no-repeat center center;
     background-size: cover;
     width: 90%;
     height: 80%;
@@ -27,6 +27,10 @@ header div {
     border-radius: 80px;
     border: 1px solid rgba(0, 0, 0, 0.55);
     overflow: hidden;
+}
+
+header p {
+    padding: 10px;
 }
 
 main {
