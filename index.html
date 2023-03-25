@@ -5,80 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- LINKS CS -->
+    <link rel="stylesheet" href="style/style.css">
+
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
     <!-- GOOGLE ICONS -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 
     <title>Perfil</title>
-
-    <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        body {
-            text-align: center;
-            background: url(inicio/img/Fundo.png) no-repeat center center;
-            background-size: cover;
-            height: 100vh;
-            color: white;
-        }
-
-        h1 {
-            text-shadow: 1px 1px black;
-        }
-
-        div {
-            width: 400px;
-            height: 400px;
-            border-radius: 50%;
-            border: 1px solid black;
-            margin: 70px auto;
-            background-color: white;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-        }
-
-        a {
-            font-size: 1.5em;
-            text-decoration: none;
-            color: black;
-            text-shadow: 1px 1px wheat;
-
-            transition: all 1s;
-        }
-
-        a:hover {
-            font-size: 2em;
-        }
-
-        span.icon {
-            margin-left: 10px;
-            color: black;
-        }
-
-    </style>
 </head>
 <body>
-    <h1>Gustavo Pilar</h1>
-    <div>
-        <img src="inicio/img/Eu.jpg">
-    </div>
-    <a href="home/home.html">Start &Rarr;</a>
-    <footer>
-        <p><a href="https://github.com/gustavopilar" target="_blank">Gustavo Pilar</a><span class="material-symbols-outlined icon">account_circle</span></p>
-    </footer>
+    <header>
+        <div><img src="./img/Eu.jpg" alt="Minha foto"></div>
+        <h1>Gustavo Pilar</h1>
+    </header>
+    <main>
+        <section id="section_info">
+            <p>Dev</p>
+            <h1>Web</h1>
+        </section>
+        <section id="section_button">
+            <div><a href="home/home.html">Começar</a></div>
+        </section>
+    </main>
+    
 </body>
 </html>
