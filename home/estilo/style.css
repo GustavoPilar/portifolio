@@ -7,6 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, #E8C37D, transparent);
 }
 
 header {
@@ -31,7 +32,7 @@ main {
     background-color: rgba(255, 255, 255, 0.671);
     width: 70%;
     height: 50vh;
-    margin: -30vh auto;
+    margin: -30vh auto 20px;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.172);
     text-align: center;
     border-radius: 10px 50px;
@@ -49,7 +50,7 @@ main div {
     width: 80%;
     height: 45px;
     border-radius: 10px 50px;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 main div a {
