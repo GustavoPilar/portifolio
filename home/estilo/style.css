@@ -44,8 +44,9 @@ header div {
 
 header div a {
     font-size: 1.5em;
-    color: #292929;
+    color: white;
     text-decoration: none;
+    text-shadow: 1px 1px black;
 }
 
 main {
