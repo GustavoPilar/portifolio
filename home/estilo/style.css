@@ -24,7 +24,7 @@ main {
     position: relative;
     background-color: rgba(255, 255, 255, 0.671);
     width: 70%;
-    height: 47vh;
+    height: 50vh;
     margin: -150px auto;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.172);
     text-align: center;
@@ -38,8 +38,7 @@ main h1 {
 main div {
     width: 80%;
     height: 45px;
-    border: 1px solid beige;
-    border-radius: 30px;
+    border-radius: 10px 50px;
     margin: 20px auto;
 }
 
