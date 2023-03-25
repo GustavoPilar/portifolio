@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-:root {
-
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +12,11 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 74vh;
-    padding: 10px;
+    padding-top: 10px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(241, 241, 241);
 }
 
 header div {
@@ -43,10 +39,10 @@ header h1 {
 }
 
 main {
+    width: 100%;
     height: 20vh;
     display: flex;
     justify-content: stretch;
-    background-color: red;
 }
 
 section {
@@ -89,3 +85,18 @@ main section#section_button div a {
     border-radius: 30px;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+footer i {
+    color: black;
+    font-size: 2em;
+}
