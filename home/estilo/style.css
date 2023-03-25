@@ -30,7 +30,6 @@ header {
     left: 0;
     display: flex;
     align-content: start;
-    justify-content: space-between;
     align-items: center;
 }
 
