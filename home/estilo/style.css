@@ -28,15 +28,24 @@ header {
     height: 5vh;
     top: 0;
     left: 0;
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.fa-arrow-left {
-    position: absolute;
+header div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div a {
+    font-size: 1.5em;
     color: #292929;
-    font-size: 2em;
-    padding: 10px;
-    top: 0;
-    left: 0;
+    text-decoration: none;
 }
 
 main {
@@ -44,6 +53,7 @@ main {
     background-color: rgba(255, 255, 255, 0.671);
     width: 80%;
     height: 55vh;
+    margin-top: -100px;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.172);
     text-align: center;
     border-radius: 10px 50px;
