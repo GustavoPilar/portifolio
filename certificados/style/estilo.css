@@ -9,6 +9,9 @@
 header {
     margin: 10px;
 }
+header a {
+    color: black;
+}
 
 main {
     text-align: center;
