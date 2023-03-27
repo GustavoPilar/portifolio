@@ -11,8 +11,12 @@ body {
     background-repeat: no-repeat;
 }
 
-header {
+header div a {
+    padding: 10px;
     font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
 }
 
 main {
