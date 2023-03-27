@@ -45,19 +45,3 @@ main p {
     color: white;
     text-shadow: 1px 1px black;
 }
-
-main div#hobby {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-div#hobby > div {
-    border: 1px solid black;
-    height: 100px;
-    width: 24%;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
