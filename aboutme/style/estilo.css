@@ -46,6 +46,10 @@ header div#img img {
     height: 100%;
 }
 
+header p {
+    font-size: .8em;
+}
+
 /* MAIN */
 
 main {
