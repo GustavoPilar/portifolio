@@ -33,6 +33,8 @@ header div#button a {
 }
 
 header div#img {
+    background: url(../img/eu-de-lado.jpg) no-repeat center center;
+    background-size: cover;
     width: 90%;
     height: 70%;
     margin: 10px auto;
@@ -41,10 +43,6 @@ header div#img {
     overflow: hidden;
 }
 
-header div#img img {
-    width: 100%;
-    height: 100%;
-}
 
 header p {
     font-size: .8em;
