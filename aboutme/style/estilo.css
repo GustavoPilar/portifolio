@@ -46,14 +46,17 @@ header div#img {
 
 header p {
     font-size: .8em;
+    padding: 10px 0px;
 }
 
 /* MAIN */
 
 main {
     background-color: rgb(239, 239, 239);
-    width: 80%;
-    height: 420px;
+    min-width: 300px;
+    max-width: 800px;
+    min-height: 380px;
+    max-height: 400px;
     margin: 10px auto;
     text-align: left;
     text-indent: 40px;
