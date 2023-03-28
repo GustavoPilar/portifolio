@@ -19,14 +19,15 @@ Telas grandes = acima de 1200px
         text-shadow: 1px 1px black;
     }
     main {
-        width: 50%;
-        height: 80%;
+        width: 600px;
+        height: 500px;
+        margin: 0;
     }
 
     main div {
         width: 80%;
         height: 45px;
         border-radius: 10px 50px;
-        margin: 50px auto;
+        margin: 20px auto;
     }
 }
