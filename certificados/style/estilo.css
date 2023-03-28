@@ -64,6 +64,15 @@ main section article div {
     color: white;
 }
 
+/* IMAGENS */
+
+div#adm {
+    background: url(../img/1.jpg) no-repeat center center;
+    background-size: cover;
+
+    transform: rotate(90deg);
+}
+
 div#ingles {
     background: url(../img/certificado-ingles.PNG) no-repeat center center;
     background-size: cover;
