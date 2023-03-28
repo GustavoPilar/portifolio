@@ -68,6 +68,10 @@ main section article {
     padding: 10px;
 }
 
+main section article p a {
+    color: black;
+}
+
 main section article ul {
     margin-top: 15px;
     text-align: center;
