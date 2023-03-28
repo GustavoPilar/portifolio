@@ -18,7 +18,7 @@ body {
 header {
     background-color: rgb(241, 241, 241);
     width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
 header div#button {
@@ -34,7 +34,7 @@ header div#button a {
 
 header div#img {
     width: 90%;
-    height: 80%;
+    height: 70%;
     margin: 10px auto;
     border-radius: 80px;
     border: 1px solid black;
