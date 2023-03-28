@@ -56,24 +56,15 @@ main section article div {
     justify-content: center;
 }
 
+div img {
+    height: 100%;
+    width: 100%;
+}
+
 .soon {
     border: none;
     width: 100%;
     height: 50px;
     background-color: rgba(0, 72, 255, 0.63);
     color: white;
-}
-
-/* IMAGENS */
-
-div#adm {
-    background: url(../img/1.jpg) no-repeat center center;
-    background-size: cover;
-
-    transform: rotate(90deg);
-}
-
-div#ingles {
-    background: url(../img/certificado-ingles.PNG) no-repeat center center;
-    background-size: cover;
 }
