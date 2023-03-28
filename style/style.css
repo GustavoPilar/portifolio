@@ -18,8 +18,8 @@ header {
     background-color: rgb(241, 241, 241);
 }
 
-header div {
-    background: url(../img/Eu.jpg) no-repeat center center;
+header div#img {
+    background: url(../img/Eu.jpg) no-repeat center top;
     background-size: cover;
     width: 90%;
     height: 80%;

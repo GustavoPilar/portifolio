@@ -19,10 +19,6 @@ Telas grandes = acima de 1200px
         width: 50%;
         margin: auto;
     }
-
-    main {
-        width: 60%;
-    }
 }
 
 @media screen and (min-width: 1200px) {
