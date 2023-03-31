@@ -42,7 +42,7 @@ main {
 }
 
 main section div#foto {
-    width: 80%;
+    width: 300px;
     height: 300px;
     margin: auto;
     border-radius: 50%;
