@@ -143,3 +143,17 @@ hr.row {
     width: 80%;
     margin: 10px auto;
 }
+
+/* FOOTER */
+footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: #166295;
+    text-decoration: none;
+    transition-duration: 2s;
+}
