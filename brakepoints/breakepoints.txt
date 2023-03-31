@@ -5,4 +5,5 @@ Celular = 600px até 768px
 tablet = 768px até 992px
 desktops = 992 até 1200px
 Telas grandes = acima de 1200px
+-------------------------------
 */
