@@ -19,4 +19,9 @@ Telas grandes = acima de 1200px
         width: 800px;
         margin: auto;
     }
+
+    main div#foto {
+        height: 400px;
+        background-size: cover;
+    }
 }
