@@ -18,7 +18,7 @@
 <body onload="theme()">
     <header>
         <p>
-            <a href="../home/home.html" rel="prev">&larr;</a>
+            <a href="../home.html" rel="prev">&larr;</a>
         </p>
         <h1><span class="material-symbols-outlined">person</span>Sobre mim</h1>
     </header>
@@ -71,27 +71,5 @@
     <footer>
 
     </footer>
-
-    <script>
-        function theme() {
-            var data = new Date()
-            var hora = data.getHours()
-            var h = window.document.querySelector('header')
-            var b = window.document.querySelector('body')
-            var m = window.document.getElementsByTagName('main')[0]
-            var a = window.document.querySelector('a')
-        
-            if (hora >= 8 && hora < 18) {
-                h.style.color = 'black'
-            } else {
-                h.style.background = 'rgb(83, 83, 83)'
-                b.style.background = '#434343'
-                b.style.color = 'white'
-                b.style.textShadow = '1px 1px black'
-                m.style.background = '#9c9c9c'
-                a.style.color = 'white'
-            }
-        }
-    </script>
 </body>
 </html>

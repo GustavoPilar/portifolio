@@ -52,27 +52,5 @@
             </article>
         </section>
     </main>
-
-    <script>
-        function theme() {
-            var data = new Date()
-            var hora = data.getHours()
-            var h = window.document.querySelector('header')
-            var b = window.document.querySelector('body')
-            var a1 = window.document.getElementsByTagName('a')[0]
-            var a2 = window.document.getElementsByTagName('a')[1]
-
-            if (hora >= 8 && hora < 18) {
-                h.style.background = 'rgb(241, 241, 241)'
-                h.style.color = 'black'
-            } else {
-                h.style.background = 'rgb(83, 83, 83)'
-                b.style.background = '#434343'
-                b.style.color = 'white'
-                a1.style.color = 'white'
-                a2.style.color = 'white'
-            }
-        }
-    </script>
 </body>
 </html>
