@@ -82,3 +82,7 @@ main article.list div.icon {
 main article.list div.icon i {
     font-size: 1.8em;
 }
+
+main ul {
+    list-style-type: none;
+}
