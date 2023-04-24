@@ -75,12 +75,18 @@ main div#foto {
     justify-content: space-between;
 }
 
+main div#foto p {
+    background-color: rgba(128, 128, 128, 0.419);
+    padding: 0px 5px 0px 0px;
+}
+
 main div#foto p::before {
-    content: 'JS';
+    content: ' JS ';
     background-color: yellow;
     border: 2px solid black;
     color: black;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 main div#foto a {
